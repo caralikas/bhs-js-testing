@@ -1,4 +1,7 @@
-function front_times(str,n){
-    let front = str.substring(0,3);
-    return front.repeat(n);
+function string_bits(str){
+    let result = "";
+    for (let i = 0; i<str.length; i+= 2){
+        result += str[i];
+    }
+    return result;
 }
