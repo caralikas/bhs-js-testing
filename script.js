@@ -3,8 +3,8 @@
  * Run after you make changes to re-run the tests with your new code.
  */
 
-function sleep_in(weekday,vacation){
-    return !weekday || vacation;
+function monkey_trouble(a_smile,b_smile){
+    return a_smile == b_smile;
 }
 
 function string_times(str,num){
