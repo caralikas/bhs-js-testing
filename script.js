@@ -6,12 +6,3 @@
 function monkey_trouble(a_smile,b_smile){
     return a_smile == b_smile;
 }
-
-function string_times(str,num){
-    let result = "";
-
-    for (let i =0; i < num; i++){
-        result += str;
-    }
-    return result;
-}
