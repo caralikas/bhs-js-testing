@@ -1,8 +1,4 @@
-function string_times(str,num){
-    let result = "";
-
-    for (let i =0; i < num; i++){
-        result += str;
-    }
-    return result;
+function front_times(str,n){
+    let front = str.substring(0,3);
+    return front.repeat(n);
 }
