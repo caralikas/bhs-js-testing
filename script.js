@@ -1,3 +1,8 @@
-function sleep_in(weekday,vacation){
-    return !weekday || vacation;
+function string_times(str,num){
+    let result = "";
+
+    for (let i =0; i < num; i++){
+        result += str;
+    }
+    return result;
 }
